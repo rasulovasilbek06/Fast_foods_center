@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: silver;
+    overflow: hidden;
+}
+p{
+    justify-content: center;
+    text-align: center;
+    margin-top: 10rem;
+}
+h4{
+    text-align: center;
+    justify-content: center;
+    margin-top: 7rem;
+}
+.p1{
+    width: 880px;
+    height: 400px;
+    border: 2px solid khaki;
+    float: left;
+    margin: 2em 0em 0em 1em ;
+    display: inline-block;
+}
+.p1:hover{
+    transform: scale(4s);
+    background-color: black;
+    transition: all 2s;
+    border: none;
+}
+.p2{
+    width: 920px;
+    height: 400px;
+    border: 2px solid khaki;
+    margin: 2em 1em 0em 0em ;
+    display: inline-block;
+    float: right;
+}
+.p2:hover{
+    transform: scale(4s);
+    background-color: black;
+    transition: all 2s;
+    border: none;
+}
+.p3{
+    width: 500px;
+    height: 250px;
+    border: 2px solid khaki;
+    margin: 5em 10em 5em 1em;
+    display: inline-block;
+}
+.p3:hover{
+    transform: scale(4s);
+    background-color: black;
+    transition: all 2s;
+    border: none;
+}
+
+.p4{
+    width: 500px;
+    height: 250px;
+    border: 2px solid khaki;
+    margin: 5em 6em 5em 1em;
+    display: inline-block;
+}
+.p4:hover{
+    transform: scale(4s);
+    background-color: black;
+    transition: all 2s;
+    border: none;
+}
+.p5{
+    width: 500px;
+    height: 250px;
+    border: 2px solid khaki;
+    margin: 5em 4em 0em 1em;
+    display: inline-block;
+    
+}
+.p5:hover{
+    transform: scale(4s);
+    background-color: black;
+    transition: all 2s;
+    /* text-decoration: overline; */
+    text-decoration: underline;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .detal{
+    width: 250px;
+    height: 20px;
+    text-align: center;
+    margin: 5px 50px 0;
+    color: rgb(255, 0, 0);
+    border: 2px solid aqua;
+    border-radius: 50px;
+} 
+*/
+
+
+ 

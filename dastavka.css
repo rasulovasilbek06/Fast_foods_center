@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000000;
+    overflow: hidden;
+}
+.input{
+    width: 450px;
+    height: 800px;
+    justify-content: center;
+    text-align: center;
+    border: 5px solid blue;
+    border-radius: 100px;
+    margin: 40px 40% 0;
+}
+.join{
+    margin-top: 5rem;
+    border-radius: 50px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.join{
+    color: red;
+    border: 5px solid blue;
+    background-image: linear-gradient(to right,  red,blue);
+}
+.dale{
+    color: blue;
+    background-image: linear-gradient(to left,red,blue);
+    border: 5px solid blue;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}

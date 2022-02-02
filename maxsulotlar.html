@@ -222,11 +222,40 @@
 
 
     <div id="full">
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet sapiente nihil doloribus dolorem, minima nostrum commodi rerum magnam iure explicabo cupiditate. Autem a quod totam dicta unde libero, quis est.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat pariatur nemo non! Aliquam quaerat sit, dolorem porro aliquid ipsa ad temporibus eligendi id expedita! Dolore possimus sint blanditiis perspiciatis porro. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores facilis voluptatibus repellat quisquam at atque repudiandae itaque quidem, vitae harum, ea commodi eos obcaecati provident unde ratione consequatur! Rerum, dolore! </p>
+      <p class="brigne">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet sapiente nihil doloribus dolorem, minima nostrum commodi rerum magnam iure explicabo cupiditate. Autem a quod totam dicta unde libero, quis est.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat pariatur nemo non! Aliquam quaerat sit, dolorem porro aliquid ipsa ad temporibus eligendi id expedita! Dolore possimus sint blanditiis perspiciatis porro. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores facilis voluptatibus repellat quisquam at atque repudiandae itaque quidem, vitae harum, ea commodi eos obcaecati provident unde ratione consequatur! Rerum, dolore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil nulla fugit saepe accusamus, cupiditate explicabo aspernatur veritatis dignissimos cum culpa corporis quam laudantium quaerat animi quod. Quod laudantium odio nihil cupiditate facere dicta consequatur tempora quaerat placeat, obcaecati, accusantium odit eius officiis commodi voluptas, quasi repellat rem. Neque autem dolorum ad porro eum exercitationem quidem impedit, inventore sit, sint et delectus quam quos alias! Dolorem, necessitatibus repellat. Culpa magnam provident cupiditate alias vel recusandae eum omnis maxime harum nulla commodi iste consequuntur sed aut quia repellendus odit ullam beatae, dolorem exercitationem. Nisi, dolorem. Libero mollitia tempore nesciunt enim debitis repellat Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque voluptate consectetur repudiandae provident animi, minus atque exercitationem repellendus alias cupiditate pariatur ab similique voluptates, libero velit molestias voluptas nihil unde at assumenda facere sunt harum? Veniam, quo dolorem beatae sequi reprehenderit odio eveniet ad vitae repudiandae accusantium perspiciatis neque dolore harum eligendi a aut ab incidunt dignissimos mollitia architecto eius. Ad ratione inventore magnam veniam dolore laudantium fugit voluptatum repellendus dolor saepe veritatis, voluptatem tempore! Obcaecati quod cum corrupti numquam, tenetur porro beatae laborum iste asperiores saepe inventore veniam adipisci officiis, rem quos doloremque. Aliquam ipsa, cumque quo laudantium suscipit expedita tenetur voluptatem nesciunt sunt architecto blanditiis nostrum accusamus nemo nulla! Neque consequuntur illum sint vitae fugit cumque eveniet, corporis inventore recusandae illo eius repellendus ad molestias aliquid amet! Iusto commodi magnam, veritatis voluptatem a ullam numquam praesentium eius asperiores autem! Totam, itaque! Vel, optio quasi voluptate natus quae cum hic laborum quos in soluta fugiat qui vitae, praesentium ab harum perspiciatis debitis aliquid enim modi minus commodi? Molestiae culpa consequuntur, repellendus iste ipsum mollitia impedit ab tempore, porro modi similique id! Corporis fugiat quidem aspernatur distinctio necessitatibus ratione, vitae doloribus, eligendi cum amet ad repellat ut animi. Officia ex provident nostrum reprehenderit expedita, alias labore rem molestias quaerat dolorum esse dolorem et officiis repellendus voluptas sit laborum totam ipsa quos accusantium numquam vero explicabo saepe. Consectetur, soluta corrupti blanditiis cum libero possimus, dolor omnis architecto facere earum ut voluptates totam? Voluptate, quia nulla vitae recusandae reiciendis  </p>
       <h1>&copf;</h1>
+
+      <script src="https://use.fontawesome.com/fe459689b4.js"></script>
+
+  <button class="btn" id="green"><i class="fa fa-thumbs-up fa-lg" aria-hidden="true"></i></button>
+  <button class="btn" id="red"><i class="fa fa-thumbs-down fa-lg" aria-hidden="true"></i></button>
+
     </div>
 
+<script>
+  var btn1 = document.querySelector('#green');
+var btn2 = document.querySelector('#red');
 
+btn1.addEventListener('click', function() {
+  
+    if (btn2.classList.contains('red')) {
+      btn2.classList.remove('red');
+    } 
+  this.classList.toggle('green');
+  
+});
+
+btn2.addEventListener('click', function() {
+  
+    if (btn1.classList.contains('green')) {
+      btn1.classList.remove('green');
+    } 
+  this.classList.toggle('red');
+  
+});
+
+
+</script>
 
 
 
